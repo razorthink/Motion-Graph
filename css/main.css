@@ -112,8 +112,8 @@ body {
 
 #slider {
     position: fixed;
-    width: 5px;
-    background: rgba(255, 0, 0, 0.5);
+    width: 2px;
+    background: rgba(163, 0, 0, 1);
     top: 0;
     bottom: 0;
     left: 25px;
@@ -142,21 +142,60 @@ body {
     width: 100%;
     text-align: center;
     background: rgb(20, 27, 31);
+    padding: 0 26px;
+}
+
+.footage-config {
+    position: fixed;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.42);
+    right: 75px;
+    top: 50px;
+    padding: 1em;
+    color: white;
+    z-index: 10000;
+}
+
+.footage-config-clip-time {
+    width: 100px;
+
+    background: rgb(255, 255, 255); 
+    border: none; 
+    font-size: 14px;  
+    padding: 8px 5px;
+    text-align: center;
+    outline: 0;
+}
+
+.footage-config-clip-time-set {
+    width: 60px;
+    
+    background: rgb(15, 178, 255);
+    border: none;
+    font-size: 14px;
+    color: white;
+    padding: 8px 5px;
 }
 
 .footage-player {
     height: auto;
-
     margin: 0 auto;
     min-width: 600px;
-    width: 95%;
+    width: 100%;
 }
 
-.analytics-container {
+.analytics {
     position: absolute;
-    
     bottom: 42px;
     background: rgba(0, 0, 0, 0.25);
+    padding: 0 26px;
+    width: 100%;
+}
+
+.analytics-graph {
+    position: relative;
+    left: -28px;
+    width: 100%;
 }
 
 /* ==========================================================================
