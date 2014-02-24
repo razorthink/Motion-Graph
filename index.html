@@ -27,14 +27,18 @@
                 <h1>Video Motion-Sensor Sync</h1>
             </div> -->
 
-            <div class="footage footage-container">                
+            <div class="footage footage-container">  
+                <div class="footage-config">
+                        <input placeholder="Clip Time" type="text" class="footage-config-clip-time">
+                        <button class="footage-config-clip-time-set">Set</button>
+                </div>              
                 <video class="footage-player" controls>
-                  <source src="videos/walk-3.mp4" type="video/mp4">
+                  <source src="videos/walk-5.mp4" type="video/mp4">
                 </video>
             </div>
 
-            <div class="analytics analytics-container">
-                <div id="container"></div>
+            <div class="analytics">
+                <div id="container" class="analytics-graph"></div>
             </div>
         </div>
 
